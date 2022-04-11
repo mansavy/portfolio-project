@@ -64,3 +64,16 @@ footer {
 .contact-icon {
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    padding-top: 50px;
+  }
+  h3,
+  h4 {
+    font-size: 20px;
+  }
+  .hero {
+    height: 450px;
+  }
+}
