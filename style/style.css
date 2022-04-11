@@ -9,11 +9,27 @@ h1 {
   font-family: "Permanent Marker", cursive;
 }
 
+h2,
 h3,
 h4 {
   text-align: center;
   color: var(--primary-color);
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  padding: 10px 0;
 }
 
 .hero {
@@ -24,4 +40,27 @@ h4 {
   height: 750px;
   background-position: center;
   width: 100%;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.contact {
+  background-color: #54aeea;
+  padding: 20px 0;
+}
+
+.email {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.icon {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.contact-icon {
+  text-align: center;
 }
