@@ -55,11 +55,16 @@ footer {
 
 .work {
   background-color: var(--yellow);
+  text-align: center;
+}
+
+.work h3 {
+  padding-top: 30px;
 }
 
 .carousel {
   width: 500px;
-  height: 500px;
+  height: 250px;
 }
 
 .contact {
