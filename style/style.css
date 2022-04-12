@@ -53,13 +53,14 @@ footer {
   color: var(--yellow);
 }
 
-.work {
+.writing-work {
   background-color: var(--yellow);
   text-align: center;
 }
 
-.work h3 {
+.writing-work h3 {
   padding-top: 30px;
+  color: white;
 }
 
 .carousel {
