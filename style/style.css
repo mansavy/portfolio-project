@@ -1,5 +1,8 @@
 :root {
   --primary-color: black;
+  --yellow: #dcc076;
+
+  --blue: #54aeea;
 }
 
 h1 {
@@ -18,10 +21,10 @@ h4 {
 }
 
 p {
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 footer {
@@ -46,9 +49,18 @@ footer {
   background-color: #fff;
 }
 
+.about-heading {
+  color: var(--yellow);
+}
+
+.work {
+  background-color: var(--yellow);
+}
+
 .contact {
-  background-color: #54aeea;
+  background-color: var(--blue);
   padding: 20px 0;
+  text-align: center;
 }
 
 .email {
@@ -74,6 +86,9 @@ footer {
     font-size: 20px;
   }
   .hero {
-    height: 450px;
+    height: 663px;
+  }
+  .about-blurb {
+    text-align: center;
   }
 }
