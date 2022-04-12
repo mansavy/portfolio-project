@@ -57,6 +57,11 @@ footer {
   background-color: var(--yellow);
 }
 
+.carousel {
+  width: 500px;
+  height: 500px;
+}
+
 .contact {
   background-color: var(--blue);
   padding: 20px 0;
