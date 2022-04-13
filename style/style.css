@@ -1,38 +1,49 @@
 :root {
-  --primary-color: black;
+  --black: black;
   --yellow: #dcc076;
-
+  --white: #fff;
   --blue: #54aeea;
 }
 
 h1 {
-  color: var(--primary-color);
+  color: var(--black);
   text-align: center;
   padding-top: 200px;
   font-family: "Permanent Marker", cursive;
 }
 
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
 h2,
-h3,
-h4 {
+h3 {
   text-align: center;
-  color: var(--primary-color);
+  color: var(--black);
   font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  color: var(--primary-color);
+  color: var(--black);
   font-size: 18px;
   line-height: 1.4;
 }
 
 footer {
-  background-color: #fff;
+  background-color: var(--white);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: smaller;
   padding: 10px 0;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 .hero {
@@ -46,7 +57,7 @@ footer {
 }
 
 .about {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .about-heading {
@@ -64,19 +75,14 @@ footer {
   border: none;
 }
 
-.writing-work h3 {
+.heading {
   padding: 30px 0;
-  color: white;
+  color: var(--white);
 }
 
 .web-work {
   background-color: var(--blue);
   text-align: center;
-}
-
-.web-work h3 {
-  padding: 30px 0;
-  color: white;
 }
 
 .carousel {
@@ -103,6 +109,20 @@ footer {
 
 .contact-icon {
   text-align: center;
+}
+
+.journalism-work {
+  background-color: var(--yellow);
+}
+
+.web-work-page {
+  background-color: var(--blue);
+}
+
+.more-button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--blue);
 }
 
 @media (max-width: 576px) {
