@@ -99,6 +99,10 @@ footer {
   text-align: center;
 }
 
+.soon {
+  opacity: 0.5;
+}
+
 @media (max-width: 576px) {
   h1 {
     padding-top: 50px;
