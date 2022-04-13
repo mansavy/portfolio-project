@@ -58,6 +58,12 @@ footer {
   text-align: center;
 }
 
+.card {
+  margin: 0 auto;
+  background-color: var(--yellow);
+  border: none;
+}
+
 .writing-work h3 {
   padding: 30px 0;
   color: white;
@@ -97,10 +103,6 @@ footer {
 
 .contact-icon {
   text-align: center;
-}
-
-.soon {
-  opacity: 0.5;
 }
 
 @media (max-width: 576px) {
