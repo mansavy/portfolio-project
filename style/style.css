@@ -125,6 +125,12 @@ a {
   background-color: var(--blue);
 }
 
+.less-button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--blue);
+}
+
 @media (max-width: 576px) {
   h1 {
     padding-top: 50px;
