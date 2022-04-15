@@ -76,10 +76,12 @@ a {
   border: none;
 }
 
-.card-title,
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
 .card-text {
   text-align: center;
-  font-style: bold;
 }
 
 .heading {
@@ -138,6 +140,11 @@ a {
   background-color: var(--white);
   border: none;
   color: black;
+}
+
+.work-subhead {
+  text-align: center;
+  color: var(--white);
 }
 
 .card-img-top {
