@@ -5,6 +5,10 @@
   --blue: #54aeea;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   color: var(--black);
   text-align: center;
@@ -24,11 +28,9 @@ h2,
 h3 {
   text-align: center;
   color: var(--black);
-  font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
   color: var(--black);
   font-size: 18px;
   line-height: 1.4;
@@ -37,7 +39,6 @@ p {
 footer {
   background-color: var(--white);
   text-align: center;
-  font-family: "Montserrat", sans-serif;
   font-size: smaller;
   padding: 10px 0;
 }
@@ -78,6 +79,7 @@ a {
 .card-title,
 .card-text {
   text-align: center;
+  font-style: bold;
 }
 
 .heading {
