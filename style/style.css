@@ -130,12 +130,14 @@ a {
   display: block;
   margin: 0 auto;
   background-color: var(--blue);
+  border: none;
+  padding: 10px 20px;
 }
 
-.less-button {
-  display: block;
-  margin: 0 auto;
-  background-color: var(--blue);
+.more-button:hover {
+  background-color: var(--white);
+  border: none;
+  color: black;
 }
 
 .card-img-top {
@@ -148,6 +150,14 @@ a {
   display: block;
   margin: 30px auto;
   background-color: var(--yellow);
+  border: none;
+  padding: 10px 20px;
+}
+
+.web-more-button:hover {
+  background-color: var(--white);
+  border: none;
+  color: black;
 }
 
 .work-web-paragraph {
@@ -158,12 +168,6 @@ a {
   display: block;
   margin: 0 auto;
   text-align: center;
-}
-
-.web-less-button {
-  display: block;
-  margin: 0 auto;
-  background-color: var(--yellow);
 }
 
 @media (max-width: 576px) {
