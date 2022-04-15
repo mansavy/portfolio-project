@@ -34,6 +34,49 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">MS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#journo">Journalism</a>
+            </li>
+            <img
+              src="photos/logo.png"
+              alt="Mandy Savoie logo"
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            <li class="nav-item">
+              <a class="nav-link" href="#develop">Web Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="hero">
       <h1>Mandy Savoie</h1>
       <h2>Freelance writer + editor + fact-checker + front-end developer</h2>
@@ -51,7 +94,7 @@
             />
           </div>
           <div class="col-lg-6">
-            <h2 class="about-heading pt-3">About Mandy</h2>
+            <h2 class="about-heading pt-3" id="about">About Mandy</h2>
             <div class="about-blurb">
               <p>
                 I’m a freelance writer, editor and fact-checker based in
@@ -89,7 +132,7 @@
     </div>
 
     <div class="writing-work">
-      <h2 class="heading">
+      <h2 class="heading" id="journo">
         <a href="/work.html#journalism-work">Journalism Work</a>
       </h2>
 
@@ -151,7 +194,7 @@
     </div>
 
     <div class="web-work">
-      <h2 class="heading">
+      <h2 class="heading" id="develop">
         <a href="/work.html#web-work-page">Front-end development</a>
       </h2>
 
@@ -228,7 +271,7 @@
       </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <h2>Contact Me</h2>
       <p>
         Get in touch:
