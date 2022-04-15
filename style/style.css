@@ -144,6 +144,28 @@ a {
   object-fit: cover;
 }
 
+.web-more-button {
+  display: block;
+  margin: 30px auto;
+  background-color: var(--yellow);
+}
+
+.work-web-paragraph {
+  text-align: center;
+}
+
+.work-web-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.web-less-button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--yellow);
+}
+
 @media (max-width: 576px) {
   h1 {
     padding-top: 50px;
