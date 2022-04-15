@@ -43,6 +43,16 @@ a {
   color: var(--white);
 }
 
+.nav-link {
+  font-size: 25px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
 .hero {
   background-image: url(/photos/background.jpg);
   background-size: cover;
@@ -158,6 +168,14 @@ a {
 .work-web-link {
   display: block;
   margin: 0 auto;
+}
+
+#brand {
+  border: 2px dotted black;
+  border-radius: 50%;
+  padding: 10px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 70px;
 }
 
 @media (max-width: 576px) {
