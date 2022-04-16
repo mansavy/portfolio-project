@@ -52,7 +52,22 @@ a {
   flex: 1;
   justify-content: space-around;
   padding-top: 20px;
+  transition: top 0.3s;
 }
+
+.nav-active {
+  display: none;
+}
+
+.nav-second {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding-top: 20px;
+  transition: top 0.3s;
+  background-color: purple;
+}
+
 #brand {
   border: 2px dotted black;
   border-radius: 50%;
