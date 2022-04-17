@@ -141,9 +141,17 @@ a {
   text-decoration: none;
 }
 
+.email:hover {
+  color: var(--blue);
+}
+
 .icon {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.icon:hover {
+  color: var(--blue);
 }
 
 .journalism-work {
