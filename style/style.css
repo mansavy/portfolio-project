@@ -45,12 +45,16 @@ a {
   font-weight: 500;
 }
 
+a:hover {
+  color: var(--black);
+}
+
 .navbar-nav {
   display: flex;
   flex: 1;
   justify-content: space-around;
   padding-top: 30px;
-  transition: top 0.3s;
+  transition: all 100ms ease-in-out;
   font-size: 25px;
 }
 
@@ -62,7 +66,7 @@ a {
   display: flex;
   flex: 1;
   justify-content: space-around;
-  transition: top 0.5s;
+  transition: all 100ms ease-in-out;
   background-color: var(--yellow);
   opacity: 0.9;
   height: 52px;
@@ -177,7 +181,8 @@ a {
 }
 
 .work-subhead {
-  color: var(--white);
+  color: var(--black);
+  opacity: 0.6;
 }
 
 .card-img-top {
@@ -213,10 +218,31 @@ a {
   h4 {
     font-size: 20px;
   }
+
+  .navbar {
+    background: var(--white);
+    opacity: 0.9;
+  }
   .hero {
     height: 663px;
   }
   .about-blurb {
     text-align: center;
+  }
+
+  .card-img-top {
+    height: 150px;
+  }
+
+  .carousel {
+    width: 90%;
+    height: 250px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  #brand {
+    display: hidden;
   }
 }
