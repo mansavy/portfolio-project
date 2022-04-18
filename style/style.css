@@ -207,19 +207,37 @@ a:hover {
 
 .work-web-link {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto 0;
+}
+
+.work-pic {
+  margin: 15px 0;
+}
+
+@media (max-width: 912px) {
+  .navbar,
+  .nav-second,
+  .navbar-nav {
+    background: var(--white);
+    opacity: 0.9;
+  }
+  .brandx {
+    display: none !important;
+  }
 }
 
 @media (max-width: 576px) {
   h1 {
-    padding-top: 50px;
+    padding-top: 60px;
   }
   h3,
   h4 {
     font-size: 20px;
   }
 
-  .navbar {
+  .navbar,
+  .nav-second,
+  .navbar-nav {
     background: var(--white);
     opacity: 0.9;
   }
@@ -242,7 +260,23 @@ a:hover {
   .carousel-indicators {
     display: none;
   }
-  #brand {
-    display: hidden;
+
+  .brandx {
+    display: none !important;
+  }
+
+  .work-web-paragraph {
+    display: none;
+  }
+
+  .work-subhead {
+    display: none;
+  }
+
+  .work-pic {
+    margin-bottom: 10px;
+  }
+  #webLessButton {
+    display: none;
   }
 }
