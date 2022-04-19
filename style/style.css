@@ -225,13 +225,13 @@ a:hover {
 }
 
 .story-photo {
-  margin-top: 150px;
+  margin-top: 350px;
   height: 500px;
   width: 80%;
 }
 
 .story-pic {
-  margin-top: 25px;
+  padding-top: 125px;
 }
 
 .video {
