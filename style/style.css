@@ -234,6 +234,11 @@ a:hover {
   margin-top: 25px;
 }
 
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (max-width: 912px) {
   .navbar,
   .nav-second,
@@ -303,6 +308,11 @@ a:hover {
   }
 
   .story-photo {
+    height: auto;
+    width: auto;
+  }
+
+  .video {
     height: auto;
     width: auto;
   }
