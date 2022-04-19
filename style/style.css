@@ -117,6 +117,7 @@ a:hover {
 
 .card-title {
   font-weight: bold;
+  color: var(--black);
 }
 
 .heading {
@@ -207,11 +208,30 @@ a:hover {
 
 .work-web-link {
   display: block;
-  margin: 20px auto 0;
+  margin: 25px auto 0;
 }
 
 .work-pic {
   margin: 15px 0;
+}
+
+.story-headline {
+  padding-top: 20px;
+}
+
+.story {
+  padding: 0 100px;
+  text-align: justify;
+}
+
+.story-photo {
+  margin-top: 150px;
+  height: 500px;
+  width: 80%;
+}
+
+.story-pic {
+  margin-top: 25px;
 }
 
 @media (max-width: 912px) {
@@ -276,6 +296,17 @@ a:hover {
   .work-pic {
     margin-bottom: 10px;
   }
+
+  .story {
+    text-align: center;
+    padding: 0 25px;
+  }
+
+  .story-photo {
+    height: auto;
+    width: auto;
+  }
+
   #webLessButton {
     display: none;
   }
