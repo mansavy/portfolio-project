@@ -230,10 +230,6 @@ a:hover {
   width: 80%;
 }
 
-.story-pic {
-  padding-top: 125px;
-}
-
 .video {
   display: block;
   margin: 0 auto;
@@ -254,6 +250,10 @@ a:hover {
   }
   .brandx {
     display: none !important;
+  }
+
+  .story-pic {
+    display: block;
   }
 }
 
@@ -309,7 +309,7 @@ a:hover {
   }
 
   .story {
-    text-align: center;
+    text-align: justify;
     padding: 0 25px;
   }
 
@@ -318,9 +318,17 @@ a:hover {
     width: auto;
   }
 
+  .story-pic {
+    margin-bottom: 0;
+  }
+
   .video {
     height: auto;
     width: auto;
+  }
+
+  .article-subhead {
+    text-align: center;
   }
 
   #webLessButton {
