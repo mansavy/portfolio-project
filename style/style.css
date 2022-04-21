@@ -230,6 +230,11 @@ a:hover {
   width: 80%;
 }
 
+.story-pic {
+  width: auto;
+  height: auto;
+}
+
 .video {
   display: block;
   margin: 0 auto;
@@ -241,6 +246,13 @@ a:hover {
   margin-top: 20px;
 }
 
+.disney-headline {
+  padding-top: 20px;
+  font-family: "Mouse Memoirs", sans-serif;
+  display: inline;
+  font-size: 64px;
+}
+
 @media (max-width: 912px) {
   .navbar,
   .nav-second,
@@ -250,10 +262,6 @@ a:hover {
   }
   .brandx {
     display: none !important;
-  }
-
-  .story-pic {
-    display: block;
   }
 }
 
